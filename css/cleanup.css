@@ -1,1 +1,16 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 500px;
+    height: 500px;
+}
+#wall #tag-2 {
+    background: url(../images/tag-2.png) no-repeat;
+    z-index: 4;
+    display: none;
+}
